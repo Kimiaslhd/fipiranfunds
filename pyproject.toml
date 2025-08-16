@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fipiranfunds"
+version = "0.1.0"
+description = "A Python library for fetching and exporting Iranian fund data from Fipiran API"
+readme = "README.md"
+authors = [
+    {name = "Kimia Salehy Delarestaghy", email = "kimiaslhd@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "requests",
+    "pandas",
+    "jdatetime",
+    "beautifulsoup4"
+]
+
+[project.urls]
+Homepage = "https://github.com/Kimiaslhd/fipiranfunds"
+Issues = "https://github.com/Kimiaslhd/fipiranfunds/issues"
